@@ -3,12 +3,12 @@ description: 'My gitOps action'
 author: 'Dipika Lade'
 inputs:
   myInput:
-  description: 'greetings to use'
-  required: true
-  default: 'Awsome Guru'
+    description: 'greetings to use'
+    required: true
+    default: 'Awsome Guru'
 outputs:
    MyOutput:
-   description: 'total memory'
+     description: 'total memory'
  runs:
    using: 'docker'
    image: 'Dockerfile'
